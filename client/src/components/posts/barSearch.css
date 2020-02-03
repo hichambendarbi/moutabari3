@@ -1,0 +1,71 @@
+
+  .form-search-wrap {
+    background: #fff;
+    border-radius: 30px;
+    -webkit-box-shadow: 0 2px 30px -5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 30px -5px rgba(0, 0, 0, 0.2); }
+    .form-search-wrap .form-control {
+      border: none; }
+
+      @media (max-width: 1199.98px) {
+        .form-search-wrap {
+        background:black;} }
+      @media (max-width: 1199.98px) {
+        .form-search-wrap .form-control {
+          height: 55px;
+          margin: 10px 0px;} }
+    .form-search-wrap .btn {
+      border-radius: 30px;
+      padding: 10px 30px; }
+      @media (max-width: 1199.98px) {
+        .form-search-wrap .btn {
+          width: 100% !important;
+          display: block; } }
+  .popular-category {
+    background: #fff;
+    display: block;
+    text-align: center;
+    padding: 30px 10px;
+    border-radius: 7px;
+    background: #f8f9fa;
+    position: relative; }
+    .popular-category .icon {
+      display: block;
+      -webkit-transition: .1s all ease;
+      -o-transition: .1s all ease;
+      transition: .1s all ease; }
+      .popular-category .icon > span {
+        line-height: 0;
+        font-size: 40px; }
+    .popular-category .caption {
+      color: #666666;
+      -webkit-transition: .1s all ease;
+      -o-transition: .1s all ease;
+      transition: .1s all ease; }
+    .popular-category .number {
+      padding: 2px 20px;
+      border-radius: 30px;
+      display: inline-block;
+      background: #e9ecef;
+      color: #000;
+      font-size: 14px;
+      -webkit-transition: .1s all ease;
+      -o-transition: .1s all ease;
+      transition: .1s all ease; }
+    .popular-category:hover {
+      background: #7971ea;
+      -webkit-box-shadow: 0 5px 30px -5px rgba(121, 113, 234, 0.5);
+      box-shadow: 0 5px 30px -5px rgba(121, 113, 234, 0.5); }
+      .popular-category:hover .caption {
+        color: #fff; }
+      .popular-category:hover .icon {
+        color: #fff; }
+      .popular-category:hover .number {
+        background: #645be7;
+        color: #fff; }
+
+        .site-blocks-cover, .site-blocks-cover > .container > .row {
+            min-height: 600px;
+            height: calc(100vh); }
+  
+  

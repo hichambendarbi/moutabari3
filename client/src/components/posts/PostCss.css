@@ -1,0 +1,93 @@
+.mb-4 {
+    margin-bottom: -0.2rem!important;
+  
+}
+
+@media screen and (max-width: 575px) {
+    .mb-4{
+        padding: 0px;
+}
+}
+
+/* @media screen and (max-width: 700px) {
+     #Te {
+        margin-bottom: 1rem!important;
+}
+} */
+
+.form-control-lg {
+    height: calc(2.875rem + 2px);
+    padding: .5rem 1rem;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    height: auto;
+    height: 35Px;
+    padding: 4Px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.MuiButton-contained {
+    color: rgba(0, 0, 0, 0.87);
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+    background-color: #dc3545 !important;
+    /* border-radius: 50%; */
+    width: 100px;
+    height: 70px;
+    /* height: 100px; */
+    /* border-radius: 50% !important;
+    height: 70px; */
+}
+
+
+    @media screen and (max-width: 550px) {
+        .MuiButton-contained {
+            width: 70px;
+            height: 70px;
+            border-radius: 50% !important;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .MuiButton-contained {
+        width: 40px;
+        height: 40px;
+        border-radius: 25% !important;
+}
+}
+
+.MuiDialog-paperScrollPaper {
+    display: flex;
+    max-height: calc(100% - 64px);
+    flex-direction: column;
+    overflow-y: initial !important; 
+    width: 1200px;
+    /* overflow-y: initial !important; */
+}
+@media screen and (max-width: 370px) {
+    .MuiDialog-paperScrollPaper {
+        overflow-y: auto !important;
+}
+}
+
+.MuiDialogContent-root {
+    flex: 1 1 auto;
+    padding: 8px 24px;
+    overflow-y: initial !important;
+  
+}
+
+/* .MuiDialog-paperWidthSm {
+    max-width: 300px !important;
+} */
+
+
+.MuiDialogContentText-root {
+    margin-bottom: -60px !important;
+}
+

@@ -1,0 +1,19 @@
+.MuiDialog-paperScrollPaper {
+    display: flex;
+    max-height: calc(100% - 64px);
+    flex-direction: column;
+    /* width: 400PX; */
+    text-align: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.MuiDialog-paperWidthSm{
+    max-width: 900px !important;
+}
+
+.mb-5{
+    margin-bottom: 1.5rem!important;
+    margin-top: 10px!important;
+}
+
