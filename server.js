@@ -21,7 +21,7 @@ const db = require("./config/keys").mongoURI;
 
 // connect to mongoDB
 mongoose
-  .connect("mongodb://localhost/moutabari",{ useNewUrlParser: true ,useUnifiedTopology: true } )
+  .connect(db,{ useNewUrlParser: true ,useUnifiedTopology: true } )
   .then(() => console.log("mongodb connected"))
   .catch(err => console.log(err));
 
