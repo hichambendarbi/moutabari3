@@ -1,3 +1,4 @@
 # api keys
 .env
-/keys_dev
+# api key
+.keys_dev
