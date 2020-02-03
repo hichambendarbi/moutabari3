@@ -1,4 +1,6 @@
 # api keys
 .env
 # api key
-.keys_dev
+./config/keys_dev
+# production
+./config/production

@@ -1,0 +1,24 @@
+User-agent: *
+Disallow: /gestion-profile-donneur-receveur/
+Disallow: /Modification-profile/
+Disallow: /ajouter-experience-transfusion-sang/
+Disallow: /readme.html
+User-agent:Googlebot-Image
+Allow:/
+User-agent:Googlebot-mobile
+Allow:/
+Allow: /blog/
+Allow: /login/
+Allow: /profiles/
+Allow: /profile/
+Allow: /register/
+Allow: /Apropos/
+Allow: /demandes-dons-sang/
+Allow: /créer-profile-donneur-receveur/
+Allow: *.js
+Allow: *.css
+Allow: *.png
+Allow: *.gif
+Allow: *.jpg
+
+Sitemap: http://www.moutabari3.com/sitemap.xml
