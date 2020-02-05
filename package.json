@@ -1,0 +1,40 @@
+{
+  "name": "moutabari3",
+  "version": "1.0.1",
+  "description": "un plateform pour les donneurs des sang",
+  "main": "client/src/index.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.2",
+    "express": "^4.17.1",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.3",
+    "moment": "^2.24.0",
+    "nodemon": "^1.19.4",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "react-swipeable-views": "^0.13.3",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mkhmalech/moutabari3.git"
+  },
+  "keywords": [
+    "donne",
+    "des",
+    "sang"
+  ],
+  "author": "khm@med",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mkhmalech/moutabari3/issues"
+  },
+  "homepage": "https://github.com/Mkhmalech/moutabari3#readme"
+}
