@@ -176,17 +176,14 @@ export const removeLike = (id, auth) => dispatch => {
 };
 
 // Add Comment
-export const addComment = (id, auth) => dispatch => {
+export const addComment = (postId, formData) => dispatch => {
   dispatch(clearErrors());
   axios
-    .post(`/api/posts/comment/${id}`)
+    .post(`/api/posts/comment/${postId}`)
     .then(res =>
       dispatch({
         type: ADD_COMMENT,
-        payload: {
-          id,
-          auth
-        }
+        payload: res.data 
       })
     )
     .catch(err => {

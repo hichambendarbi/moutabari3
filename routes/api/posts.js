@@ -227,10 +227,10 @@ router.post(
           .then(profile => {
             const newComment = {
               text: req.body.text,
-              name: req.body.name,
+              // name: req.body.name,
               // avatar: req.body.avatar,
-              user: req.user.id,
-              handle: profile.handle
+              user: req.user.id
+              // handle: profile.handle
             };
 
             // Add to comments array

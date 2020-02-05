@@ -75,8 +75,8 @@ class CommentForm extends Component {
     const { postId } = this.props;
 
     const newComment = {
-      text: this.state.text,
-      name: user.name,
+      text: this.state.text
+      // name: user.name,
       // avatar: user.avatar
     };
              console.log(this.state.text)
@@ -109,7 +109,7 @@ class CommentForm extends Component {
                 placeholder="En reparation...sera prochainement en marche"
                 name="text"
                 value={this.state.text}
-                // onChange={this.onChange}
+                onChange={this.onChange}
                 error={errors.text}
                 // disabled="disabled"
                               />
