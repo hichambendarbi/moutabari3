@@ -1,6 +1,1 @@
-# api keys
-.env
-# api key
-./config/keys_dev
-# production
-./config/production
+node_modules
