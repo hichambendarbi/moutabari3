@@ -1,9 +1,9 @@
-const express = require("express");
+const express = require("./node_modules/express");
 const router = express.Router();
-const bcrypt = require("bcryptjs");
-const jwt = require("jsonwebtoken");
+const bcrypt = require("./node_modules/bcryptjs");
+const jwt = require("./node_modules/jsonwebtoken");
 const keys = require("../../config/keys");
-const passport = require("passport");
+const passport = require("./node_modules/passport");
 
 // const users = express.Router();
 // const nodemailer = require('nodemailer'); 
