@@ -1,0 +1,15 @@
+{
+  "name": "medical-api-banking",
+  "version": "1.0.0",
+  "description": "banking module for medical api ittyni.com",
+  "main": "dist/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "banking",
+    "module"
+  ],
+  "author": "khm@med",
+  "license": "ISC"
+}

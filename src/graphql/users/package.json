@@ -1,0 +1,11 @@
+{
+  "name": "medical-api-users-module",
+  "version": "1.0.0",
+  "description": "this is a module for medical api ittyni.com",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "khm@med (r)",
+  "license": "ISC"
+}
