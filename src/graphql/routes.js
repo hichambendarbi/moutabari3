@@ -1,6 +1,6 @@
 // var userHandler = require('./users/handler');
-var graphqlHTTP = require("express-graphql");
-var { buildSchema } = require("graphql");
+var graphqlHTTP = require("./node_modules/express-graphql");
+var { buildSchema } = require("./node_modules/graphql");
 
 
 var UserSchema = buildSchema(`
