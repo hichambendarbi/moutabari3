@@ -1,5 +1,0 @@
-export * from './controllers/User'
-export * from './gql/handler'
-export * from './gql/resolver'
-export * from './gql/schema'
-export * from './module/users'
