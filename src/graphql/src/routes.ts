@@ -1,4 +1,5 @@
 import express from 'express';
+import * as userHandler from '../user-medical-api'
 
 
 
@@ -19,7 +20,7 @@ const routes = ($: express.Router) => {
         res.send('<bold> Hello World </b>')
     });
 
-    // $.all('/tests', HandlerLab.users)
+    $.all('/users', userHandler.User)
 
     return $;
 }
